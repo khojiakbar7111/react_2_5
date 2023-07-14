@@ -1,0 +1,69 @@
+.header{
+   
+    padding-top: 73px;
+}
+.main_header_continer,
+.header_logo,
+.header_nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_nav{
+    margin-left: 80px;
+
+}
+.header_nav_iteam:not(:first-child){
+    margin-left: 40px;
+}
+.header_nav_link{
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px; 
+}
+
+.heder_btn_link{
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px; 
+border-radius: 24px;
+border: 2px solid #FFF;
+padding: 11px 33px;
+
+}
+.main_header_logo{
+    max-width: 159px;
+}
+.main_header_menu{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/tur.svg);
+    border: none;
+     display: none;
+}
+@media screen and (max-width:768px) {
+    .main_header_logo{
+        max-width: 128px;
+    } 
+    .header_nav{
+        margin-left: 48px;
+    
+    } 
+}
+@media screen and (max-width:620px) {
+    .heder_btn_link,
+    .header_nav_ul{
+       display: none;
+    }
+    .main_header_menu{
+        display: block;
+    }
+    .header{
+        padding-top: 48px;
+    }
+}
