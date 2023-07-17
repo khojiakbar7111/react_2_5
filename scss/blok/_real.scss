@@ -1,0 +1,114 @@
+.section_real_title{
+    max-width: 932px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px; /* 100% */
+
+}
+.section_real_title_span{
+    color: #79C8C7;
+}
+.section_real{
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background: #004047;
+    background-repeat: no-repeat;
+    background-image: url(../../images/realcontin.svg);
+    background-position: right bottom;
+}
+.section_real_conit_p{
+    max-width: 350px;
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px ;
+padding-top: 92px;
+background-repeat: no-repeat;
+background-image: url(../../images/real2.svg);
+background-position: center top 50px;
+
+}
+
+    
+
+.section_real_conit_title{
+    color: #79C8C7;
+    text-align: center;
+    padding-top: 24px;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+}
+.section_real_conit{
+    max-width: 350px;
+  
+  
+}
+.section_real_conit_user{
+    color: #FFF;
+text-align: center;
+font-size: 13px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px; 
+}
+.section_real_conit_rasm{
+display: block;
+padding-top: 32px;
+ max-width: 62px;
+ min-height: 62px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.section_real_box{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media screen and (max-width:1043px) {
+    .section_real_title{
+        max-width: 732px;
+        font-size: 32px;
+    }
+  
+    .section_real_conit{
+        max-width: 245px;
+
+    }
+    .section_real_conit_title{
+     font-size: 16px;
+    }
+}
+@media screen and (max-width:768px) {
+    .section_real_title{
+        max-width:  573px;
+        font-size: 32px;
+    } 
+
+    .section_real_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section_real_conit_p{
+    width: 772px;
+       
+    }
+    .section_real_conit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_real_conit{
+        width: 573px;
+    }
+
+}
